@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Glyphs">
+      <UniqueIdentifier>{ce4cbb4e-d134-439f-94c6-2cd12ba17fdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Glyphs">
+      <UniqueIdentifier>{7e679f7d-e63d-4a83-94a7-495585c73e99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\formattingStrategies">
+      <UniqueIdentifier>{d6d8483f-1dd5-4734-81b1-6c6b51b80b9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\formatters">
+      <UniqueIdentifier>{bbbfcb30-fac5-440e-ab8a-6268d719a321}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyph.h">
+      <Filter>Header Files\Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Column.h">
+      <Filter>Header Files\Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="CompositeGlyph.h">
+      <Filter>Header Files\Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Row.h">
+      <Filter>Header Files\Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.h">
+      <Filter>Header Files\Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Header Files\Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Symbol.h">
+      <Filter>Header Files\Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="WWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Page.h">
+      <Filter>Header Files\Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Document.h">
+      <Filter>Header Files\Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Formatter.h">
+      <Filter>Header Files\formattingStrategies</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleLineFormatter.h">
+      <Filter>Header Files\formattingStrategies</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphFormatter.h">
+      <Filter>Header Files\formattingStrategies</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TextEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Page.cpp">
+      <Filter>Source Files\Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="CompositeGlyph.cpp">
+      <Filter>Source Files\Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Column.cpp">
+      <Filter>Source Files\Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Source Files\Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Row.cpp">
+      <Filter>Source Files\Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Symbol.cpp">
+      <Filter>Source Files\Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Table.cpp">
+      <Filter>Source Files\Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Document.cpp">
+      <Filter>Source Files\Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleLineFormatter.cpp">
+      <Filter>Source Files\formatters</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphFormatter.cpp">
+      <Filter>Source Files\formatters</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TextEditor.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TextEditor.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
